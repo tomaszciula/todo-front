@@ -1,4 +1,4 @@
-export const API = "http://localhost:8080/api";
+export const API = "https://wheelo.byst.re/todo-0.0.1-SNAPSHOT";
 export interface ITodo {
   id: number;
   done: boolean;
