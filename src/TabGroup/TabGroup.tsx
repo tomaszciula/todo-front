@@ -34,7 +34,15 @@ const TabGroup: FC<ITabGroupState> = (props) => {
           setActiveTab={props.setActiveTab}
         />
       </TabGroupWrapper>
-      <TabGroupWrapper>
+
+      <TabGroupWrapper style={{ width: "40%", justifyContent: "space-between" }}>
+        <Tab
+          id="notes"
+          text="Notes"
+          color="#7339aa"
+          activeTab={props.activeTab}
+          setActiveTab={props.setActiveTab}
+        />
         <Tab
           text="Add"
           color="#AA3939"
